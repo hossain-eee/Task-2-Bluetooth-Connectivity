@@ -1,16 +1,8 @@
 # task_2_bluetooth_connectivity
 
-A new Flutter project.
 
 ## Getting Started
+![Screenshot_20240818_000021](https://github.com/user-attachments/assets/4200250b-2274-4fd3-b1a2-ce032851cd4a)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## APK File
+[Apk file ](https://drive.google.com/file/d/1D09RNNI9ZQjvJ3-XyQG6kGN5VqIK1r6J/view?usp=sharing)
