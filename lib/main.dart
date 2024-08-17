@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:get/get.dart';
 import 'package:task_2_bluetooth_connectivity/ble_controller.dart';
+import 'package:task_2_bluetooth_connectivity/home_screen.dart';
 import 'package:task_2_bluetooth_connectivity/state_holder_bindings.dart';
 
 void main() {
@@ -20,12 +21,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const HomeScreen(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+/* class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
   @override
@@ -91,3 +92,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+ */

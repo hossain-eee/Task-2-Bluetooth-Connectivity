@@ -1,4 +1,4 @@
-/* import 'package:flutter_blue_plus/flutter_blue_plus.dart';
+/* /* import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:get/get.dart';
 
 class BluetoothController extends GetxController {
@@ -132,3 +132,24 @@ class BluetoothController extends GetxController {
     super.onClose();
   }
 }
+ */
+
+import 'package:flutter_blue_plus/flutter_blue_plus.dart';
+import 'package:get/get.dart';
+
+class BluetoothController extends GetxController {
+  //create instance
+  // FlutterBluePlus flutterBluePlus = FlutterBluePlus.instance;
+  //it will scan device for bluetooth connection
+  Future scanDevice() async {
+    //starting scan from here, it will scan for 5 seconds
+    FlutterBluePlus.startScan(timeout: Duration(seconds: 5));
+    //after the scan we also need to stop scan
+    FlutterBluePlus.stopScan();
+  }
+
+  //our scanning part is complete
+  //now we need to show all the availabe device, lets make getter
+  Stream<List<ScanResult>> get scanResult => FlutterBluePlus.scanResults;
+}
+//done, need to create UI
